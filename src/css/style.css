@@ -10769,6 +10769,7 @@ h2.title-modern > span {
 .team-modern-caption {
 	padding: 7px 14px 48px;
 	background: #f7f7f7;
+	height: 200px;
 }
 
 .team-modern-header {
@@ -10818,6 +10819,8 @@ h2.title-modern > span {
 
 .team-modern-phone {
 	font-weight: 500;
+	max-width: 100%;
+	overflow-wrap: anywhere;
 }
 
 .team-modern-name {
@@ -19619,7 +19622,7 @@ h1 + .tabs-line {
 
 @media (min-width: 768px) {
 	.tabs-line .nav-link {
-		font-size: 16px;
+		font-size: 12px;
 	}
 	.tabs-line .nav-link-big {
 		font-size: 36px;
